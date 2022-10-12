@@ -1,0 +1,13 @@
+{
+	"private": "true",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "npx servor dist index.html 3000 --browse",
+		"clean": "rm -rf dist"
+	},
+	"dependencies": {
+		"vite": "^3.1.6"
+	}
+}
